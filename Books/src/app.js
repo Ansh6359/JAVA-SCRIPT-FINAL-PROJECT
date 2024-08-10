@@ -15,7 +15,7 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-// Path for static files
+// Path for static files....
 const static_path = path.join(__dirname, "../public");
 
 // Middleware setup
